@@ -1,0 +1,14 @@
+.div-image{
+    position: relative;
+}
+.svg{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.svg-product-added{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
