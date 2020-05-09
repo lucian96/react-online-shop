@@ -11,7 +11,6 @@ function FavoriteItem(props) {
 
         
         return (
-            
             <div className="product-item d-flex flex-column align-items-center justify-content-center col-12 col-md-4 mb-3">
                 <div className="div-image">
                     <img src={image} alt={name} className="image"></img> 

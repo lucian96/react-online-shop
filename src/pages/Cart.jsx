@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import {connect} from 'react-redux';
 import {removeFromCart} from '../redux/actions/cart';
+import {Link} from 'react-router-dom';
 
 function Cart(props) {
 
@@ -10,8 +11,9 @@ function Cart(props) {
     return (
             <Layout>
                 <div className="container-fluid container-min-max-width">
-                    {
-                        cartProducts.map((cartProduct) => {
+                    {   
+                        cartProducts.length
+                        ? cartProducts.map((cartProduct) => {
                             return (
                                 <div className="d-flex">
                                     <p className="w-50">{cartProduct.name}</p>
@@ -21,6 +23,10 @@ function Cart(props) {
                                 </div>
                             )
                         })
+                        : <div className="d-flex flex-column align-items-center">
+                        <p className="h3">Nu ai produse în coș!</p>
+                        <Link to="/"><button className="btn btn-outline-dark">Inapoi la home</button></Link>
+                        </div>
                     }
                 </div>
             </Layout>

@@ -26,8 +26,10 @@ function Header(props) {
                     }
                     <Link to='/favorites'><FavoriteItem className="ml-1"/></Link>
                     <Link to='/favorites' className="mr-1">{numberOfFavorites}</Link>
-                    <ShoppingCart />
-                    <Link to='/cart' className="ml-1">{numberOfProducts}</Link>
+                    <Link to='/cart' >
+                        <ShoppingCart className="mr-1"/>
+                        {numberOfProducts}
+                    </Link>
                 </div>
             </div>
         </header>

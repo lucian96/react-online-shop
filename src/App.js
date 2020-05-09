@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Page404 from './pages/Page404';
 import About from './pages/About';
 import TermsCond from './pages/TermsCond';
+import Product from './pages/Product';
 import './utils/utility-classes.css';
 
 import Cart from './pages/Cart';
@@ -32,6 +33,7 @@ class App extends React.Component {
             <Route path='/terms-and-conditions' component={TermsCond} />
             <Route path='/favorites' component={Favorites} />
             <Route path='/cart' component={Cart} />
+            <Route path='/product/:productId' component={Product}/>
             <Route path='*' component={Page404}/>
           </Switch>
         </div>

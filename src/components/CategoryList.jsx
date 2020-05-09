@@ -13,7 +13,6 @@ function CategoryList(props) {
                 {
                     props.items.map((item, index) => {
                         return (
-                            <div>
                                 <CategoryItem
                                     id={item.id}
                                     name={item.name} 
@@ -25,11 +24,13 @@ function CategoryList(props) {
                                             if(item.id === favorite.id){
                                                 return favorite.added
                                             }
+                                            else {
+                                                return null;
+                                            }
                                         })
                                     }
                                     key={index}
                                 />
-                            </div>
                         )
                     })
                 }
