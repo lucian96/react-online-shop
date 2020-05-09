@@ -1,3 +1,5 @@
+import {START_LOADING, UPDATE_USER_DATA, UPDATE_ERROR} from './userConstants';
+
 const initialState = {
     data: null,
     loading: false,
@@ -6,18 +8,18 @@ const initialState = {
 
 export function userReducer(state=initialState, action){
     switch (action.type) {
-        case 'START_LOADING':
+        case START_LOADING:
             return {
                 ...state,
                 loading: true
             }
-        case 'UPDATE_USER_DATA':
+        case UPDATE_USER_DATA:
             return {
                 ...state,
                 loading: false,
                 data: action.payload
             }
-        case 'UPDATE_ERROR':
+        case UPDATE_ERROR:
             return {
                 ...state,
                 loading: false,

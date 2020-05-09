@@ -1,10 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './Footer.css'
-import {ReactComponent as Email} from '../assets/icons/mail.svg';
-import {ReactComponent as Phone} from '../assets/icons/phone.svg';
-import {ReactComponent as Github} from '../assets/icons/github.svg';
-import {ReactComponent as LinkedIn} from '../assets/icons/linkedin.svg';
+import {ReactComponent as Email} from '../../assets/icons/mail.svg';
+import {ReactComponent as Phone} from '../../assets/icons/phone.svg';
+import {ReactComponent as Github} from '../../assets/icons/github.svg';
+import {ReactComponent as LinkedIn} from '../../assets/icons/linkedin.svg';
 function Footer() {
     return(
         <footer className="pt-3 bg-light">

@@ -2,12 +2,12 @@ import React from 'react';
 import './App.css';
 import {Route, Switch} from 'react-router-dom';
 import Home from './pages/Home';
-import Category from './pages/Category';
+import Category from './pages/Category/Category';
 import Login from './pages/Login';
 import Page404 from './pages/Page404';
 import About from './pages/About';
 import TermsCond from './pages/TermsCond';
-import Product from './pages/Product';
+import Product from './pages/Products/Product';
 import './utils/utility-classes.css';
 
 import Cart from './pages/Cart';

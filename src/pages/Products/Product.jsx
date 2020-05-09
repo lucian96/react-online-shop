@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import Layout from '../components/Layout';
-import products from '../utils/products.json';
-import {addToCart} from '../redux/actions/cart';
+import Layout from '../../components/Layout/Layout';
+import products from '../../utils/products.json';
+import {addToCart} from '../../redux/cart/cartActions';
 import './Product.css';
 
 class Product extends Component {

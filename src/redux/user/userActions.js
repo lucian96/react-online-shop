@@ -1,21 +1,22 @@
 import {signInWithGoogle, signOut} from '../../apis/firebase';
+import {START_LOADING, UPDATE_USER_DATA, UPDATE_ERROR} from './userConstants';
 
 export function startLoading(){
     return {
-        type: 'START_LOADING'
+        type: START_LOADING
     }
 }
 
 export function updateUserData(payload){
     return{
-        type: 'UPDATE_USER_DATA',
+        type: UPDATE_USER_DATA,
         payload
     }
 }
 
 export function updateError(payload){
     return {
-        type: 'UPDATE_ERROR',
+        type: UPDATE_ERROR,
         payload
     }
 }

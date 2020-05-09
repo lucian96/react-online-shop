@@ -1,10 +1,10 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
-import {addToCart} from '../redux/actions/cart';
-import {addToFavorites, removeFromFavorites} from '../redux/actions/favorites';
-import {ReactComponent as FavoriteItem} from '../assets/icons/favorite.svg';
-import {ReactComponent as FavoriteItemFilled} from '../assets/icons/favorite-filled.svg';
+import {addToCart} from '../../redux/cart/cartActions';
+import {addToFavorites, removeFromFavorites} from '../../redux/favorites/favoritesActions';
+import {ReactComponent as FavoriteItem} from '../../assets/icons/favorite.svg';
+import {ReactComponent as FavoriteItemFilled} from '../../assets/icons/favorite-filled.svg';
 import './CategoryItem.css';
 
 function CategoryItem(props) {

@@ -3,9 +3,9 @@ import ReduxThunk from 'redux-thunk';
 
 import logger from 'redux-logger';
 
-import {cartReducer} from './reducers/cart';
-import {userReducer} from './reducers/user';
-import {favoritesReducer} from './reducers/favorites';
+import {cartReducer} from './cart/cartReducer';
+import {userReducer} from './user/userReducer';
+import {favoritesReducer} from './favorites/favoritesReducer';
 
 const rootReducer = combineReducers({
     cart: cartReducer,

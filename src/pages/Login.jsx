@@ -1,7 +1,7 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from '../components/Layout/Layout';
 import {connect} from 'react-redux';
-import {loginUser} from '../redux/actions/user';
+import {loginUser} from '../redux/user/userActions';
 
 
 class Login extends React.Component {

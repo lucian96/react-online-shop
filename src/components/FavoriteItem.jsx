@@ -1,9 +1,9 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {addToCart} from '../redux/actions/cart';
-import {addToFavorites, removeFromFavorites} from '../redux/actions/favorites';
+import {addToCart} from '../redux/cart/cartActions';
+import {addToFavorites, removeFromFavorites} from '../redux/favorites/favoritesActions';
 import {ReactComponent as Clear} from '../assets/icons/clear.svg';
-import './CategoryItem.css';
+import './Category/CategoryItem.css';
 
 function FavoriteItem(props) {
 
