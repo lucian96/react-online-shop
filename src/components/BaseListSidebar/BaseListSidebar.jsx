@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './SidebarFilter.css';
+import './BaseListSidebar.css';
 class BaseListSidebar extends Component {
 
     constructor(props){

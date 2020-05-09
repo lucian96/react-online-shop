@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout/Layout';
 import CategoryList from '../../components/Category/CategoryList';
-import BaseListSidebar from '../../components/SidebarFilter/SidebarFilter';
+import BaseListSidebar from '../../components/BaseListSidebar/BaseListSidebar';
 import products from '../../utils/products.json';
 import './Category.css';
 
