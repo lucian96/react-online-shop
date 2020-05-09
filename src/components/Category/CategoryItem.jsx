@@ -14,8 +14,8 @@ function CategoryItem(props) {
         return (
             
             <div className="product-item d-flex flex-column align-items-center justify-content-center col-12 col-md-4 mb-3">
-                <Link to={`/product/${id}`} className="d-flex flex-column align-items-center">
-                    <div className="div-image">
+                
+                    <div className="div-image d-flex flex-column align-items-center">
                         <img src={image} alt={name} className="image"></img> 
                         {
                             added === true
@@ -47,9 +47,10 @@ function CategoryItem(props) {
                                 }}/>
                     }
                     </div>
-                    <p>{name}</p>
-                    <p>{price} {currency}</p>
-                </Link>  
+                    <Link to={`/product/${id}`} className="">
+                        <p>{name}</p>
+                        <p>{price} {currency}</p>
+                    </Link>  
                    
                 <input  type="submit" 
                         onClick={() => {
