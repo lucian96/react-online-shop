@@ -5,7 +5,7 @@ function Terms() {
     return(
         <Layout>
             {/*Pentru a lua proprietatea din layout.css conform careia div-ul din layout va ocupa tot spariul ramas, am adaugat un div in componenta layout */}
-            <div>
+            <div className="container-fluid container-min-max-width">
                 <p>Terms</p>
             </div>
             

@@ -6,12 +6,12 @@
                 "name": "Palton elegant din lână",
                 "price": 210,
                 "currency": "LEI",
-                "image": "https://i.imgur.com/so6Ub44.jpg",
+                "image": "https://i.imgur.com/6ijTkGc.jpg?2",
                 "size": "L",
                 "colour": "Bej",
-                "material": "Lână virgină",
+                "material": "Poliester",
                 "brand": "Peek and Cloppenburg",
-                "description": "Haină lungă din lână virgină, colecția toamnă-iarnă 2018, Peek and Cloppenburg."
+                "description": "Palton larg confecționat din țesătură cu un grad înalt de elasticitate și confort."
             },
             {
                 "id": 2,
@@ -19,11 +19,11 @@
                 "price": 190,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/ip5lFUM.jpg?1",
-                "size": "L",
+                "size": "S",
                 "colour": "Bleumarin",
                 "material": "Poliester",
-                "brand": "DS Damat",
-                "description": "Geacă bleumarin cu glugă detașabilă, colecția toamnă-iarnă 2019, DS Damat."
+                "brand": "ZARA",
+                "description": "Trenci petrecut la două rânduri de nasturi. Guler cu rever. Mânecă lungă. Manșetă cu gaică."
             },
             {
                 "id": 3,
@@ -31,11 +31,11 @@
                 "price": 300,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/LGRYwln.jpg?1",
-                "size": "L",
+                "size": "M",
                 "colour": "Bleumarin",
                 "material": "Poliester",
-                "brand": "DS Damat",
-                "description": "Geacă bleumarin cu glugă detașabilă, colecția toamnă-iarnă 2019, DS Damat."
+                "brand": "ZARA",
+                "description": "Palton confecționat din țesătură 4-way stretch, cu elasticitate ridicată, foarte confortabilă."
             }
         ],
         "image": "https://i.imgur.com/iNaoRKD.jpg?1",
@@ -54,7 +54,7 @@
                 "colour": "Maro",
                 "material": "Cașmir",
                 "brand": "DS Damat",
-                "description": "Pulovăr din cașmir, slim fit, colecția toamnă-iarnă 2019, DS Damat."
+                "description": "Sacou cu guler și rever în V. Buzunar cu paspoal pe piept. Buzunare cu clapă. "
             },
             {
                 "id": 5,
@@ -66,7 +66,7 @@
                 "colour": "Multicolor",
                 "material": "Bumbac",
                 "brand": "McNeal",
-                "description": "Pulovăr multicolor, colecția toamnă-iarnă 209, McNeal."
+                "description": "Sacou cu guler și rever în V. Mânecă lungă cu nasturi la manșetă. Buzunare frontale cu paspoal la nivelul pieptului și al șoldului."
             },
             {
                 "id": 6,
@@ -78,7 +78,7 @@
                 "colour": "Multicolor",
                 "material": "Lână",
                 "brand": "SELECTED",
-                "description": "Pulovăr din lână, în carouri, colecția toamnă-iarnă 2019, SELECTED."
+                "description": "Sacou cu guler și rever în V. Insignă detașabilă pe rever. Mânecă lungă cu nasturi la manșetă."
             },
             {
                 "id": 7,
@@ -90,7 +90,7 @@
                 "colour": "Crem",
                 "material": "Lână",
                 "brand": "Massimo Dutti",
-                "description": "Pulovăr din lână cu model, colecția toamnă-iarnă 2019, Massimo Dutti."
+                "description": "Sacou cu guler și rever în V. Buzunare frontale cu paspoal la nivelul pieptului și cu clapă la nivelul șoldului. Închidere frontală cu nasturi."
             }
         ],
         "image": "https://i.imgur.com/wGYaTqx.jpg?1",

@@ -47,7 +47,7 @@ function CategoryItem(props) {
                                 }}/>
                     }
                     </div>
-                    <Link to={`/product/${id}`} className="">
+                    <Link to={`/product/${id}`} className="text-center">
                         <p>{name}</p>
                         <p>{price} {currency}</p>
                     </Link>  

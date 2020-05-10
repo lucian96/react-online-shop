@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout/Layout';
 import {connect} from 'react-redux';
-import {loginUser} from '../redux/user/userActions';
+import {loginUserGoogle, loginUserFacebook} from '../redux/user/userActions';
 
 
 class Login extends React.Component {
@@ -15,14 +15,18 @@ class Login extends React.Component {
 
     render() {
 
-        const { loginUser } = this.props;
+        const { loginUserGoogle, loginUserFacebook } = this.props;
         return(
             <Layout>
                 <div className="container-fluid container-min-max-width">
                     <div className="d-flex justify-content-center">
                         <button 
                             className="btn btn-outline-dark" 
-                            onClick={() => loginUser()}>Sign In with Google
+                            onClick={() => loginUserGoogle()}>Sign In with Google
+                        </button>
+                        <button 
+                            className="btn btn-outline-dark" 
+                            onClick={() => loginUserFacebook()}>Sign In with Facebook
                         </button>
                     </div>
                 </div>
@@ -40,7 +44,8 @@ function mapStateToProps(state){
 
 function mapDispatchToProps(dispatch){
     return {
-        loginUser: () => dispatch(loginUser())
+        loginUserGoogle: () => dispatch(loginUserGoogle()),
+        loginUserFacebook: () => dispatch(loginUserFacebook())
     }
 }
 

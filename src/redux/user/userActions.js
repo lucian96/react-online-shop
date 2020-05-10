@@ -1,4 +1,4 @@
-import {signInWithGoogle, signOut} from '../../apis/firebase';
+import {signInWithGoogle, signInWithFacebook, signOut} from '../../apis/firebase';
 import {START_LOADING, UPDATE_USER_DATA, UPDATE_ERROR} from './userConstants';
 
 export function startLoading(){
@@ -21,11 +21,25 @@ export function updateError(payload){
     }
 }
 
-export function loginUser(){
+export function loginUserGoogle(){
     return (dispatch) => {
         dispatch(startLoading());
         signInWithGoogle().then((response) => {
             const payload = response.user
+            dispatch(updateUserData(payload))
+        }).catch((error) => {
+            dispatch(updateError(error))
+        })
+
+    }
+}
+
+export function loginUserFacebook(){
+    return (dispatch) => {
+        dispatch(startLoading());
+        signInWithFacebook().then((response) => {
+            const payload = response.user
+            console.log(response)
             dispatch(updateUserData(payload))
         }).catch((error) => {
             dispatch(updateError(error))
