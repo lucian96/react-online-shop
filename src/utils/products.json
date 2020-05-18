@@ -9,7 +9,7 @@
                 "image": "https://i.imgur.com/6ijTkGc.jpg?2",
                 "size": "L",
                 "colour": "Bej",
-                "material": "Poliester",
+                "material": "Lână",
                 "brand": "Peek and Cloppenburg",
                 "description": "Palton larg confecționat din țesătură cu un grad înalt de elasticitate și confort."
             },
@@ -20,7 +20,7 @@
                 "currency": "LEI",
                 "image": "https://i.imgur.com/ip5lFUM.jpg?1",
                 "size": "S",
-                "colour": "Bleumarin",
+                "colour": "Crem",
                 "material": "Poliester",
                 "brand": "ZARA",
                 "description": "Trenci petrecut la două rânduri de nasturi. Guler cu rever. Mânecă lungă. Manșetă cu gaică."
@@ -33,7 +33,7 @@
                 "image": "https://i.imgur.com/LGRYwln.jpg?1",
                 "size": "M",
                 "colour": "Bleumarin",
-                "material": "Poliester",
+                "material": "Lână",
                 "brand": "ZARA",
                 "description": "Palton confecționat din țesătură 4-way stretch, cu elasticitate ridicată, foarte confortabilă."
             }
@@ -51,7 +51,7 @@
                 "currency": "LEI",
                 "image": "https://i.imgur.com/FBE5vi6.jpg?1",
                 "size": "L",
-                "colour": "Maro",
+                "colour": "Vişiniu",
                 "material": "Cașmir",
                 "brand": "DS Damat",
                 "description": "Sacou cu guler și rever în V. Buzunar cu paspoal pe piept. Buzunare cu clapă. "
@@ -63,7 +63,7 @@
                 "currency": "LEI",
                 "image": "https://i.imgur.com/SVykNqL.jpg?1",
                 "size": "L",
-                "colour": "Multicolor",
+                "colour": "Gri",
                 "material": "Bumbac",
                 "brand": "McNeal",
                 "description": "Sacou cu guler și rever în V. Mânecă lungă cu nasturi la manșetă. Buzunare frontale cu paspoal la nivelul pieptului și al șoldului."
@@ -74,8 +74,8 @@
                 "price": 165,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/myNe6Jx.jpg?1",
-                "size": "L",
-                "colour": "Multicolor",
+                "size": "S",
+                "colour": "Albastru",
                 "material": "Lână",
                 "brand": "SELECTED",
                 "description": "Sacou cu guler și rever în V. Insignă detașabilă pe rever. Mânecă lungă cu nasturi la manșetă."
@@ -86,8 +86,8 @@
                 "price": 160,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/jB5yVuA.jpg?1",
-                "size": "L",
-                "colour": "Crem",
+                "size": "M",
+                "colour": "Gri",
                 "material": "Lână",
                 "brand": "Massimo Dutti",
                 "description": "Sacou cu guler și rever în V. Buzunare frontale cu paspoal la nivelul pieptului și cu clapă la nivelul șoldului. Închidere frontală cu nasturi."
@@ -106,10 +106,10 @@
                 "currency": "LEI",
                 "image": "https://i.imgur.com/bq9k9CL.jpg?1",
                 "size": "34",
-                "colour": "Bleumarin închis",
-                "material": "Blug",
+                "colour": "Negru",
+                "material": "Bumbac",
                 "brand": "DS Damat",
-                "description": "Blugi bleumarin, slim fit, colecția primăvară-vară 2019, DS Damat."
+                "description": "Pantaloni slim fit. Talie elastică din material combinat contrastant."
             },
             {
                 "id": 9,
@@ -117,11 +117,11 @@
                 "price": 160,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/EHTuS3Q.jpg?1",
-                "size": "34",
-                "colour": "Negru-gri",
-                "material": "Blug",
+                "size": "36",
+                "colour": "Bej",
+                "material": "Bumbac",
                 "brand": "DS Damat",
-                "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
+                "description": "Pantaloni carrot fit. Talie elastică ajustabilă. Buzunare laterale și buzunar la spate cu fermoar. Închidere frontală cu fermoar și capsă."
             },
             {
                 "id": 10,
@@ -130,10 +130,10 @@
                 "currency": "LEI",
                 "image": "https://i.imgur.com/TxBqMOk.jpg?1",
                 "size": "34",
-                "colour": "Negru-gri",
-                "material": "Blug",
+                "colour": "Albastru",
+                "material": "Bumbac",
                 "brand": "DS Damat",
-                "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
+                "description": "Jeans skinny fit. Cinci buzunare."
             },
             {
                 "id": 11,
@@ -141,11 +141,11 @@
                 "price": 240,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/9t8jIjL.jpg?1",
-                "size": "34",
-                "colour": "Negru-gri",
-                "material": "Blug",
+                "size": "40",
+                "colour": "Albastru",
+                "material": "Bumbac",
                 "brand": "DS Damat",
-                "description": "Blugi negri, slim fit, colecția toamnă-iarnă 2019, DS Damat."
+                "description": "Pantaloni slim fit. Buzunare frontale. Buzunare cu paspoal dublu și nasture. "
             }
         ],
         "image": "https://i.imgur.com/TkACtAG.jpg?6",
@@ -160,11 +160,11 @@
                 "price": 190,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/VuvtI7u.jpg?1",
-                "size": "L",
-                "colour": "Multicolor",
+                "size": "M",
+                "colour": "Alb",
                 "material": "Bumbac",
                 "brand": "Lacoste",
-                "description": "Tricou în dungi, colecția primăvară-vară 2019, Lacoste."
+                "description": "Cămașă regular fit. Guler cu rever. Mânecă lungă. Manșetă cu nasturi"
             },
             {
                 "id": 13,
@@ -172,11 +172,11 @@
                 "price": 190,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/pJ0aIyo.jpg?1",
-                "size": "L",
-                "colour": "Roșu",
-                "material": "Poliester",
-                "brand": "Li Ning",
-                "description": "Tricou de ping pong cu imprimeu cu dragon, purtat de jucatorii naționalei chinei în 2013."
+                "size": "S",
+                "colour": "Negru",
+                "material": "Bumbac",
+                "brand": "ZARA",
+                "description": "Cămașă elastică super slim. Guler cu rever mic. Mânecă lungă."
             },
             {
                 "id": 14,
@@ -185,10 +185,10 @@
                 "currency": "LEI",
                 "image": "https://i.imgur.com/YLG66U3.jpg?1",
                 "size": "L",
-                "colour": "Galben-Negru",
-                "material": "Poliester",
-                "brand": "Puma",
-                "description": "Tricoul purtat de Borussia Dortmund în sezonul competițional 2018-2019, cu numarul 7 și numele 'SANCHO'. Tricoul este semnat de portarul Borussiei, Roman Burki."
+                "colour": "Negru",
+                "material": "Bumbac",
+                "brand": "H&M",
+                "description": "Jachetă tip cămașă relaxed fit. Guler cu rever. Mânecă lungă. Manșetă cu nasture."
             }
         ],
         "image": "https://i.imgur.com/1NBR4Wf.jpg?1",
@@ -203,7 +203,7 @@
                 "price": 135,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/Rz8lVQa.jpg",
-                "size": 45,
+                "size": 41,
                 "colour": "Negru",
                 "material": "Piele",
                 "brand": "Massimo Dutti",
@@ -215,7 +215,7 @@
                 "price": 100,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/Og3Oh24.jpg",
-                "size": 45,
+                "size": 43,
                 "colour": "Negru",
                 "material": "Pânză",
                 "brand": "Polo Ralph Lauren",
@@ -227,7 +227,7 @@
                 "price": 185,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/zoqSu87.jpg",
-                "size": 45,
+                "size": 41,
                 "colour": "Maro",
                 "material": "Piele",
                 "brand": "Massimo Dutti",
@@ -239,11 +239,11 @@
                 "price": 285,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/FwQCXVU.jpg?1",
-                "size": 45,
+                "size": 42,
                 "colour": "Maro",
                 "material": "Piele",
                 "brand": "Massimo Dutti",
-                "description": "Ghete maro din piele, din colecția de toamnă-iarnă 2017, Massimo Dutti."
+                "description": "Pantofi maro-piele, cataramă dublă, Massimo Dutti."
             }
         ],
         "image": "https://i.imgur.com/ulj6U6H.jpg?1",
@@ -259,10 +259,10 @@
                 "currency": "LEI",
                 "image": "https://i.imgur.com/WlxOVqc.jpg?1",
                 "size": "Universal",
-                "colour": "Gri-Bleumarin",
-                "material": "Cașmir",
-                "brand": "Trussardi Jeans",
-                "description": "Fular cu imprimeu, din colecția toamnă-iarnă 2018, Trussardi Jeans."
+                "colour": "Albastru-deschis",
+                "material": "Matase",
+                "brand": "ZARA",
+                "description": "Cravată lată din țesătură jacard de mătase, cu structură."
             },
             {
                 "id": 20,
@@ -270,7 +270,7 @@
                 "price": 120,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/LbjGaZ1.jpg",
-                "size": "L",
+                "size": "M",
                 "colour": "Negru",
                 "material": "Piele",
                 "brand": "DS Damat",
@@ -282,11 +282,11 @@
                 "price": 100,
                 "currency": "LEI",
                 "image": "https://i.imgur.com/EA8mZM2.jpg?1",
-                "size": "L",
+                "size": "Universal",
                 "colour": "Negru",
-                "material": "Piele",
-                "brand": "DS Damat",
-                "description": "Mănuși din piele, cu model, din colecția toamnă-iarnă 2018, DS Damat."
+                "material": "Cupru",
+                "brand": "Pull&Bear",
+                "description": "Ochelari cu ramă din metal. Etui inclus."
             }
         ],
         "image": "https://i.imgur.com/bvZ6pLf.jpg?1",
