@@ -6,7 +6,6 @@ import {Link} from 'react-router-dom';
 
 function Favorites(props) {
     const { favoriteItems, favoriteItemsLength } = props;
-    console.log(favoriteItemsLength);
     return (
         <Layout>
             <div className="container-fluid container-min-max-width">

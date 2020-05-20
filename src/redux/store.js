@@ -1,7 +1,7 @@
 import {createStore, combineReducers, applyMiddleware} from 'redux';
 import ReduxThunk from 'redux-thunk';
 
-import logger from 'redux-logger';
+//import logger from 'redux-logger';
 
 import {cartReducer} from './cart/cartReducer';
 import {userReducer} from './user/userReducer';
@@ -13,7 +13,7 @@ const rootReducer = combineReducers({
     favorites: favoritesReducer
 })
 
-const middlewares = [ReduxThunk, logger]
+const middlewares = [ReduxThunk, /*logger*/]
 
 const store = createStore(rootReducer, applyMiddleware(...middlewares));
 

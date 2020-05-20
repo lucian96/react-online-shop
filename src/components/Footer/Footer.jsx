@@ -21,7 +21,7 @@ function Footer() {
                         <h5 className="m-0">Contactează-mă</h5>
                         <div className="d-flex flex-row">
                             <Email className="mr-1 mb-1 footer-icon"/>
-                            <p className="mb-1">email@email.com</p>
+                            <p className="mb-1">mihailucian66@gmail.com</p>
                         </div>
                         <div className="d-flex flex-row">
                             <Phone className="mr-1 footer-icon"/>
@@ -32,7 +32,7 @@ function Footer() {
                         <h5 className="m-0">Contactează-mă</h5>
                         <div className="d-flex flex-row">
                             <Github className="mr-1 mb-1 footer-icon"/>
-                            <p className="mb-1">github</p>
+                            <a href='https://github.com/lucian96' className="mb-1">lucian96</a>
                         </div>
                         <div className="d-flex flex-row">
                             <LinkedIn className="mr-1 footer-icon"/>

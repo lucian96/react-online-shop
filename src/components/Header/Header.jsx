@@ -21,7 +21,7 @@ function Header(props) {
                             ? <div className="d-flex flex-column">
                                 <p>Salut, {user.displayName.toUpperCase()}</p>
                                 <div className="d-flex flex-row">
-                                    <Link className="h5" onClick={() => logout()}>Delogare</Link>
+                                    <Link to='' className="h5" onClick={() => logout()}>Delogare</Link>
                                     <Link to='/favorites'><FavoriteItem className="ml-1"/></Link>
                                     <Link to='/favorites' className="mr-1">{numberOfFavorites}</Link>
                                     <Link to='/cart' ><ShoppingCart className="mr-1"/></Link>
