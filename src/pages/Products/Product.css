@@ -1,12 +1,21 @@
 .product-page .image-wrapper {
-    width: 400px;
-    height: 400px;
-    /* ATENTIE! Am sters clasa de bootstrap din Product.js(justify-content-center), intrucat
-    ea se punea cu !important si nu mai putea fi suprascrisa de stilizarea pe mobile! */
-    /* In sachimb, avem proprietatea justify-content cu doua valori: una aici si una la @media */
+    width: 300px;
+    height: 250px;
     justify-content: center;
 }
+@media (max-width: 768px){
+    .product-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+}
 .product-page .image-wrapper img {
     height: 100%;
 }

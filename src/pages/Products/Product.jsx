@@ -39,11 +39,11 @@ class Product extends Component {
                 <div className="product-page container-fluid container-min-max-width">
                     <h1 className="my-5 h2">{product.name}</h1>
                     <div className="product-info d-flex">
-                        <div className="image-wrapper d-flex mr-5">
+                        <div className="image-wrapper d-flex mr-3">
                             <img src={product.image} alt={product.name}></img>
                         </div>
                         <div className="product-details">
-                            <p className="h3 text-danger">{product.price} {product.currency}</p>
+                            <p className="h3 text-danger mt-3">{product.price} {product.currency}</p>
                             <button 
                                 className="btn btn-dark mb-4 font-weight-bold"
                                 onClick={() => this.props.addToCart({

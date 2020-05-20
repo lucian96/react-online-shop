@@ -15,21 +15,29 @@ function Header(props) {
         <header className="border-bottom mb-3">
             <div className="header container-fluid container-min-max-width d-flex justify-content-between align-items-center px-5">
                 <Link to='/'><img src={logo} alt='logo' /></Link>
-                <div className="d-flex">
+                <div >
                     {
                         user
-                            ? <div>
-                                <p>Salut, {user.displayName}</p>
-                                <button onClick={() => logout()}>Delogare</button>
+                            ? <div className="d-flex flex-column">
+                                <p>Salut, {user.displayName.toUpperCase()}</p>
+                                <div className="d-flex flex-row">
+                                    <Link className="h5" onClick={() => logout()}>Delogare</Link>
+                                    <Link to='/favorites'><FavoriteItem className="ml-1"/></Link>
+                                    <Link to='/favorites' className="mr-1">{numberOfFavorites}</Link>
+                                    <Link to='/cart' ><ShoppingCart className="mr-1"/></Link>
+                                    <Link to='/cart' >{numberOfProducts}</Link>
                                 </div>
-                            : <Link to='/login'>Logare</Link>
+                                </div>
+                            : <div> 
+                                <Link className="h5" to='/login'>Logare</Link>
+                                <Link to='/favorites'><FavoriteItem className="ml-1"/></Link>
+                                <Link to='/favorites' className="mr-1">{numberOfFavorites}</Link>
+                                <Link to='/cart' ><ShoppingCart className="mr-1"/></Link>
+                                <Link to='/cart' >{numberOfProducts}</Link>
+                            </div>
                     }
-                    <Link to='/favorites'><FavoriteItem className="ml-1"/></Link>
-                    <Link to='/favorites' className="mr-1">{numberOfFavorites}</Link>
-                    <Link to='/cart' >
-                        <ShoppingCart className="mr-1"/>
-                        {numberOfProducts}
-                    </Link>
+                        
+
                 </div>
             </div>
         </header>

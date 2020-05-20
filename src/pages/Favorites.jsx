@@ -5,42 +5,46 @@ import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 
 function Favorites(props) {
-    const { favoriteItems } = props;
+    const { favoriteItems, favoriteItemsLength } = props;
+    console.log(favoriteItemsLength);
     return (
         <Layout>
             <div className="container-fluid container-min-max-width">
-                <div className="category-page col-12 col-md-9">
-                    <div className="row">
-                {
-                    favoriteItems.map((item, index) => {
-                        return(
-                            favoriteItems.length   
-                            ? <FavoriteItem
-                                id={item.id}
-                                name={item.name} 
-                                price={item.price}
-                                currency={item.currency}
-                                image={item.image}
-                                key={index}
-                            />
-                            : <div className="d-flex flex-column align-items-center">
-                            <p className="h3">Nu ai produse în coș!</p>
-                            <Link to="/"><button className="btn btn-outline-dark">Inapoi la home</button></Link>
-                            </div>
-                        )
-                    })
-                }
+                {   
+                    favoriteItemsLength
+                    ? <div className="category-page col-12 col-md-9">
+                        <div className="row">
+                        { favoriteItems.map((item, index) => {
+                            return( 
+                                <FavoriteItem
+                                    id={item.id}
+                                    name={item.name} 
+                                    price={item.price}
+                                    currency={item.currency}
+                                    image={item.image}
+                                    key={index}
+                                />
+                            )
+                        })
+                    }
+                        </div>
                     </div>
-                </div>
-            </div>
 
+                    : <div className="d-flex flex-column align-items-center">
+                            <p className="h3">Nu ai produse la favorit!</p>
+                            <Link to="/"><button className="btn btn-outline-dark">Inapoi la home</button></Link>
+                    </div>
+                }
+
+            </div>
         </Layout>
     )
 }
 
 function mapStateToProps(state){
     return {
-        favoriteItems: state.favorites.favorites
+        favoriteItems: state.favorites.favorites,
+        favoriteItemsLength: state.favorites.favorites.length
     }
 }
 

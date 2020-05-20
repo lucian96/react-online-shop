@@ -3,7 +3,7 @@ import './App.css';
 import {Route, Switch} from 'react-router-dom';
 import Home from './pages/Home';
 import Category from './pages/Category/Category';
-import Login from './pages/Login';
+import Login from './pages/Login/Login';
 import Page404 from './pages/Page404';
 import About from './pages/About';
 import TermsCond from './pages/TermsCond';
